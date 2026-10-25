@@ -38,7 +38,7 @@ Claude Code·Codex를 탭으로 돌리고, 한 프로젝트를 여러 에이전�
 - 커밋 130여 개 · 코드 약 2.6만 줄 · 테스트 300여 개(vitest + cargo)
 
 #### ⚔️ 마나 흐름 (OpenWorldRPG) — 2D 액션 RPG
-`Unity 6` `URP 2D` `C#` · Windows · Android
+`Unity 6` `URP 2D` `C#` · Windows · Android · 저장소 비공개(정리 후 공개 예정)
 
 탑다운 2D 오픈월드 액션 RPG입니다. v1.7까지 만들었습니다.
 - 3단 콤보·강공격·**패링**·**완벽 회피와 환영 반격**·필살기, 파티 3인 교체와 협주 공격
@@ -50,7 +50,7 @@ Claude Code·Codex를 탭으로 돌리고, 한 프로젝트를 여러 에이전�
 <sub>게임 아이디어는 사지방 개발자(@dev_in_airforce)의 릴스를 참고했고, 코드는 직접 구현했습니다. 그래픽은 Ninja Adventure 에셋 팩(CC0)을 사용했습니다.</sub>
 
 #### 🗓️ DeskMate — 바탕화면 일정·과제 위젯
-`Tauri 2` `Rust` `SvelteKit` `TypeScript`
+`Tauri 2` `Rust` `SvelteKit` `TypeScript` · 저장소 비공개(정리 후 공개 예정)
 
 바탕화면에 붙어 있는 대학생용 일정·과제 대시보드입니다.
 - 학교 **이클래스 연동**: 앱 안 브라우저로 로그인하고, 할 일·마감을 가져오고, 제출 여부를 감지합니다. 세션이 만료되면 자동으로 다시 로그인합니다.
@@ -77,7 +77,7 @@ A Windows desktop app that runs Claude Code and Codex as tabs and lets several a
 - 130+ commits · ~26k lines · 300+ tests (vitest + cargo)
 
 #### ⚔️ ManaFlow (OpenWorldRPG) — 2D action RPG
-`Unity 6` `URP 2D` `C#` · Windows · Android
+`Unity 6` `URP 2D` `C#` · Windows · Android · private repo (to be published)
 
 A top-down 2D open-world action RPG, currently at v1.7.
 - 3-hit combos, heavy attacks, **parry**, **perfect dodge with phantom counter**, ultimates, 3-character party swapping
@@ -89,7 +89,7 @@ A top-down 2D open-world action RPG, currently at v1.7.
 <sub>The game idea was inspired by reels from @dev_in_airforce; all code is my own implementation. Art uses the Ninja Adventure asset pack (CC0).</sub>
 
 #### 🗓️ DeskMate — desktop schedule & assignment widget
-`Tauri 2` `Rust` `SvelteKit` `TypeScript`
+`Tauri 2` `Rust` `SvelteKit` `TypeScript` · private repo (to be published)
 
 A dashboard pinned to the desktop for university students.
 - **University e-class integration**: logs in through an in-app browser, fetches to-dos and deadlines, detects submissions, and re-logs in automatically when the session expires
