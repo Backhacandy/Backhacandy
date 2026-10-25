@@ -1,97 +1,80 @@
-<div align="center">
+<img src="assets/header.svg" width="100%" alt="이동현 · 게임이랑 데스크톱 앱을 만들어요">
 
-# 이동현 · Backhacandy
+안녕하세요, 이동현이에요.
 
-**AI 에이전트와 함께 데스크톱 앱과 게임을 만드는 개발자**<br>
-*A developer building desktop apps and games together with AI agents*
+게임이랑 데스크톱 앱을 만들어요. 혼자 만들다 보니 늘 손이 모자라서, 요즘은 AI 에이전트 여러 명한테 일을 나눠 주고 같이 개발하는 방법을 이것저것 실험하고 있어요. 그러다 필요한 도구가 없어서 직접 만든 게 아래 AITermHub예요.
 
 <br>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Svelte](https://img.shields.io/badge/Svelte_5-FF3E00?style=flat-square&logo=svelte&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri_2-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![Unity](https://img.shields.io/badge/Unity_6-000000?style=flat-square&logo=unity&logoColor=white)
+<img src="assets/t-projects.svg" height="44" alt="만든 것들">
 
-📫 backha.candy0101@gmail.com
+### 마나 흐름
 
-</div>
+<img src="assets/manaflow.gif" width="100%" alt="마나 흐름 게임 화면">
 
----
+탑다운 2D 액션 RPG예요. 적 공격 직전에 막는 패링이랑 아슬아슬하게 피하는 완벽 회피에 손맛을 넣는 데 신경을 제일 많이 썼어요. 싸우다 지치면 낚시하고, 모닥불에서 밥 해 먹고, 집도 지을 수 있어요. 시점을 돌려서 2.5D나 1인칭으로 보는 것도 해 봤고요. 지금 v1.7까지 왔어요.
 
-## 🇰🇷 소개
+<sub>Unity 6 · URP 2D · C# &nbsp;|&nbsp; Windows · Android</sub><br>
+<sub>게임 아이디어는 @dev_in_airforce 님 릴스에서 얻었고, 코드는 직접 짰어요. 그래픽은 Ninja Adventure 에셋(CC0)을 썼어요.</sub>
 
-평소에 쓰다가 불편했던 것을 직접 도구로 만들고, 그 도구로 다시 더 큰 것을 만듭니다.
-요즘은 여러 AI 코딩 에이전트가 한 프로젝트를 **나눠서 동시에** 개발하게 하는 방법에 관심이 많습니다.
+<br>
 
-### 프로젝트
+### AITermHub
 
-#### 🧠 AITermHub — 여러 AI 코딩 에이전트를 한 창에서
-`Tauri 2` `Rust` `SvelteKit` `Svelte 5` `TypeScript` · 저장소 비공개(정리 후 공개 예정)
+<img src="assets/aitermhub.png" width="100%" alt="AITermHub 팀 탭 화면">
 
-Claude Code·Codex를 탭으로 돌리고, 한 프로젝트를 여러 에이전트가 나눠 동시에 개발하게 하는 Windows 데스크톱 앱입니다.
-- **팀 탭**: 에이전트 N명이 같은 폴더에서 담당 경로(glob)를 나눠 동시에 작업합니다. 3명 이상이면 가벼운 모델이 지시를 칸별 몫으로 나누고, 인계 메모와 "요청"을 서로 전달하며, 남의 영역을 고치면 경고합니다.
-- **AI 회사 모드**: 총괄 모델이 티켓을 나누고, git worktree에서 작업한 뒤, 다른 회사 모델이 교차 리뷰합니다. GitHub 이슈·PR로 원격 팀원에게 맡길 수도 있습니다.
-- **쉬는 에이전트 메모리 ≈ 0 MB**: 프로세스를 끄지 않고 일시정지해 메모리만 반납하므로, 프롬프트 캐시가 유지되어 토큰 손해가 없습니다.
-- 계정 여러 개 자동 전환, 실시간 코드 뷰와 줄 단위 리뷰, 스트림 이벤트를 모아 처리해 렉 제거
-- 커밋 130여 개 · 코드 약 2.6만 줄 · 테스트 300여 개(vitest + cargo)
+Claude Code랑 Codex를 한 창에 탭으로 모아 두고, 한 프로젝트를 여러 에이전트가 나눠서 동시에 만들게 하는 앱이에요. 위 화면은 에이전트 네 명이 마나 흐름을 같이 고치는 중이에요. 각자 맡은 폴더가 있고, 남의 담당 파일을 건드리면 빨갛게 알려 줘요.
 
-#### ⚔️ 마나 흐름 (OpenWorldRPG) — 2D 액션 RPG
-`Unity 6` `URP 2D` `C#` · Windows · Android · 저장소 비공개(정리 후 공개 예정)
+쉬고 있는 에이전트는 메모리를 거의 0까지 내려놔요. 프로세스를 끄는 대신 재워 두는 방식이라, 다시 말을 걸어도 대화를 처음부터 다시 읽느라 토큰이 새지 않아요. 이 부분 찾느라 꽤 헤맸어요.
 
-탑다운 2D 오픈월드 액션 RPG입니다. v1.7까지 만들었습니다.
-- 3단 콤보·강공격·**패링**·**완벽 회피와 환영 반격**·필살기, 파티 3인 교체와 협주 공격
-- 제작·요리·건축·낚시·채집·동물 친구 같은 생활 콘텐츠, 이야기 수첩·몬스터 도감·업적
-- 2D 조명과 후처리, 자유 시점·입체(2.5D)·1인칭 시점, 날씨
-- 유니티 없이 바로 들어가는 개발자 모드, PlayMode 자동 테스트
-- C# 파일 285개 · 약 6.3만 줄
+<sub>Tauri 2 · Rust · Svelte 5 · TypeScript</sub>
 
-<sub>게임 아이디어는 사지방 개발자(@dev_in_airforce)의 릴스를 참고했고, 코드는 직접 구현했습니다. 그래픽은 Ninja Adventure 에셋 팩(CC0)을 사용했습니다.</sub>
+<br>
 
-#### 🗓️ DeskMate — 바탕화면 일정·과제 위젯
-`Tauri 2` `Rust` `SvelteKit` `TypeScript` · 저장소 비공개(정리 후 공개 예정)
+### DeskMate
 
-바탕화면에 붙어 있는 대학생용 일정·과제 대시보드입니다.
-- 학교 **이클래스 연동**: 앱 안 브라우저로 로그인하고, 할 일·마감을 가져오고, 제출 여부를 감지합니다. 세션이 만료되면 자동으로 다시 로그인합니다.
-- 과제·루틴 알림(마감이 가까울수록 단계적으로), 주간·월간 캘린더, D-day, 포모도로와 일일 집계, 메모, 배경 테마
-- 코드 약 5,000줄
+<img src="assets/deskmate.png" width="250" align="right" alt="DeskMate 위젯">
 
----
+과제 마감 확인하려고 매번 학교 이클래스에 들어가는 게 귀찮아서 만들었어요.
 
-## 🇺🇸 About
+바탕화면에 조용히 붙어 있다가, 마감이 다가오면 점점 자주 알려 줘요. 로그인이 풀려 있으면 알아서 다시 로그인하고, 비밀번호는 Windows 자격 증명에만 넣어 둬요.
 
-I build tools for things that bother me in daily work, then use those tools to build bigger things.
-Lately I'm focused on getting several AI coding agents to develop one project **in parallel**.
+공부할 때 쓰는 포모도로, D-day, 메모도 같이 넣었어요.
 
-### Projects
+<sub>Tauri 2 · Rust · SvelteKit · SQLite</sub>
 
-#### 🧠 AITermHub — many AI coding agents in one window
-`Tauri 2` `Rust` `SvelteKit` `Svelte 5` `TypeScript` · private repo (to be published)
+<br clear="right">
+<br>
 
-A Windows desktop app that runs Claude Code and Codex as tabs and lets several agents build one project at the same time.
-- **Team tab**: N agents share a folder and own glob-based paths. With 3+ agents, a lightweight model splits each instruction into per-agent tasks; handoff notes and requests are routed between agents, and edits outside one's area raise a warning.
-- **AI Company mode**: a lead model plans tickets, workers run in git worktrees, and a model from another vendor cross-reviews. Tickets can be delegated to remote teammates via GitHub issues and PRs.
-- **≈ 0 MB idle memory**: idle agents are suspended instead of restarted, so the prompt cache stays warm and no tokens are wasted.
-- Account rotation on usage limits, a live code view with line-level review, and batched stream rendering for a smooth UI
-- 130+ commits · ~26k lines · 300+ tests (vitest + cargo)
+<img src="assets/t-stack.svg" height="44" alt="쓰는 도구">
 
-#### ⚔️ ManaFlow (OpenWorldRPG) — 2D action RPG
-`Unity 6` `URP 2D` `C#` · Windows · Android · private repo (to be published)
+<img src="assets/stack.svg" height="36" alt="Unity, C#, Tauri, Rust, Svelte, TypeScript, SQLite, Git">
 
-A top-down 2D open-world action RPG, currently at v1.7.
-- 3-hit combos, heavy attacks, **parry**, **perfect dodge with phantom counter**, ultimates, 3-character party swapping
-- Life content: crafting, cooking, building, fishing, gathering, pets; story journal, bestiary, achievements
-- 2D lighting and post-processing, free camera, 2.5D and first-person views, weather
-- A developer mode that boots straight into the game without the Unity editor, plus automated PlayMode tests
-- 285 C# files · ~63k lines
+<img src="assets/t-ai.svg" height="44" alt="같이 일하는 AI">
 
-<sub>The game idea was inspired by reels from @dev_in_airforce; all code is my own implementation. Art uses the Ninja Adventure asset pack (CC0).</sub>
+<img src="assets/ai.svg" height="36" alt="Claude Code, Codex">
 
-#### 🗓️ DeskMate — desktop schedule & assignment widget
-`Tauri 2` `Rust` `SvelteKit` `TypeScript` · private repo (to be published)
+<br>
 
-A dashboard pinned to the desktop for university students.
-- **University e-class integration**: logs in through an in-app browser, fetches to-dos and deadlines, detects submissions, and re-logs in automatically when the session expires
-- Escalating reminders for assignments and routines, weekly and monthly calendar, D-day, Pomodoro with daily totals, memo, background themes
-- ~5,000 lines
+<img src="assets/t-contact.svg" height="44" alt="연락">
+
+backha.candy0101@gmail.com 으로 편하게 연락 주세요.
+
+<details>
+<summary><sub>English</sub></summary>
+<br>
+
+Hi, I'm 이동현 (Backhacandy). I make games and desktop apps, and lately I've been experimenting with splitting work across several AI coding agents so they can build one project together.
+
+**ManaFlow** is a top-down 2D action RPG made with Unity 6. I put the most care into making parries and perfect dodges feel good. There's also fishing, cooking and building, plus 2.5D and first-person camera modes. Currently at v1.7. The game idea came from reels by @dev_in_airforce; the code is my own, and the art uses the Ninja Adventure pack (CC0).
+
+**AITermHub** puts Claude Code and Codex in tabs and lets several agents work on the same project at once, each owning its own paths. Idle agents are suspended rather than killed, so memory drops to almost zero without losing the prompt cache. Built with Tauri 2, Rust and Svelte 5.
+
+**DeskMate** is a desktop widget that pulls assignments and deadlines from my university's e-class and reminds me more often as deadlines get closer. It re-logs in on its own and keeps the password in the Windows credential store. Built with Tauri 2, Rust and SQLite.
+
+Contact: backha.candy0101@gmail.com
+</details>
+
+<br>
+
+<img src="assets/footer.svg" width="100%" alt="">
