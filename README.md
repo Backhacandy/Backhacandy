@@ -4,7 +4,7 @@
 
 <img src="assets/status.svg" width="100%" alt="직업 게임·데스크톱 앱 개발자, 주 무기 Unity·Tauri, 특기 AI 에이전트 지휘, 칭호 밤샘하는 자">
 
-<img src="assets/party.svg" width="100%" alt="이동현의 파티: 이동현(리더), 유이(오리지널 캐릭터), Claude Code(마법사), Codex(기사)">
+<img src="assets/party.svg" width="100%" alt="이동현의 파티: 이동현(소환사, 기획·개발 총괄), 유이(궁수, 오리지널 캐릭터), Claude Code(마법사, 프론트엔드), Codex(기사, 백엔드)">
 
 <br>
 
