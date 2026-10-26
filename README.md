@@ -15,7 +15,7 @@
 탑다운 2D 액션 RPG예요. 적 공격 직전에 막는 패링이랑 아슬아슬하게 피하는 완벽 회피에 손맛을 넣는 데 신경을 제일 많이 썼어요. 싸우다 지치면 낚시하고, 모닥불에서 밥 해 먹고, 집도 지을 수 있어요. 시점을 돌려서 2.5D나 1인칭으로 보는 것도 해 봤고요. 지금 v1.7까지 왔어요.
 
 <sub>Unity 6 · URP 2D · C# &nbsp;|&nbsp; Windows · Android</sub><br>
-<sub>게임 아이디어는 @dev_in_airforce 님 릴스에서 얻었고, 코드는 직접 짰어요. 그래픽은 Ninja Adventure 에셋(CC0)을 썼어요.</sub>
+<sub>그래픽은 Ninja Adventure 에셋(CC0)을 썼어요.</sub>
 
 <br>
 
@@ -27,7 +27,7 @@ Claude Code랑 Codex를 한 창에 탭으로 모아 두고, 한 프로젝트를 
 
 쉬고 있는 에이전트는 메모리를 거의 0까지 내려놔요. 프로세스를 끄는 대신 재워 두는 방식이라, 다시 말을 걸어도 대화를 처음부터 다시 읽느라 토큰이 새지 않아요. 이 부분 찾느라 꽤 헤맸어요.
 
-<sub>Tauri 2 · Rust · Svelte 5 · TypeScript</sub>
+<sub>Tauri 2 · Rust · Svelte 5 · TypeScript &nbsp;|&nbsp; 코드 비공개</sub>
 
 <br>
 
@@ -66,7 +66,7 @@ backha.candy0101@gmail.com 으로 편하게 연락 주세요.
 
 Hi, I'm 이동현 (Backhacandy). I make games and desktop apps, and lately I've been experimenting with splitting work across several AI coding agents so they can build one project together.
 
-**ManaFlow** is a top-down 2D action RPG made with Unity 6. I put the most care into making parries and perfect dodges feel good. There's also fishing, cooking and building, plus 2.5D and first-person camera modes. Currently at v1.7. The game idea came from reels by @dev_in_airforce; the code is my own, and the art uses the Ninja Adventure pack (CC0).
+**ManaFlow** is a top-down 2D action RPG made with Unity 6. I put the most care into making parries and perfect dodges feel good. There's also fishing, cooking and building, plus 2.5D and first-person camera modes. Currently at v1.7. The art uses the Ninja Adventure pack (CC0).
 
 **AITermHub** puts Claude Code and Codex in tabs and lets several agents work on the same project at once, each owning its own paths. Idle agents are suspended rather than killed, so memory drops to almost zero without losing the prompt cache. Built with Tauri 2, Rust and Svelte 5.
 
