@@ -1,10 +1,10 @@
 <img src="assets/title-screen.svg" width="100%" alt="이동현 · 게임이랑 데스크톱 앱을 만들어요">
 
-<img src="assets/dialog.svg" width="100%" alt="유이: 어서 오세요! 여기는 이동현의 작업실이에요. 저 하얀 고양이가 이동현이에요. 게임이랑 앱을 만들고, 요즘은 AI 동료들한테 일을 나눠 주며 같이 개발한대요.">
+<img src="assets/dialog.svg" width="100%" alt="안녕하세요! 이동현이에요. 게임이랑 데스크톱 앱을 만들고, 요즘은 AI 동료들한테 일을 나눠 주며 같이 개발하는 법을 연구하고 있어요.">
 
 <img src="assets/status.svg" width="100%" alt="직업 게임·데스크톱 앱 개발자, 주 무기 Unity·Tauri, 특기 AI 에이전트 지휘, 칭호 밤샘하는 자">
 
-<img src="assets/party.svg" width="100%" alt="이동현의 파티: 이동현(하얀 고양이·리더), 유이(궁수), Claude Code(마법사), Codex(기사)">
+<img src="assets/party.svg" width="100%" alt="이동현의 파티: 이동현(리더), 유이(오리지널 캐릭터), Claude Code(마법사), Codex(기사)">
 
 <br>
 
@@ -70,4 +70,4 @@ Hi, I'm 이동현 (Backhacandy). I make games and desktop apps, and lately I've 
 Code for these projects is private. Feel free to reach out: backha.candy0101@gmail.com
 </details>
 
-<img src="assets/save.svg" width="100%" alt="저장 완료! 다음 업데이트에서 또 만나요 (자는 하얀 고양이와 유이)">
+<img src="assets/save.svg" width="100%" alt="저장 완료! 다음 업데이트에서 또 만나요">
