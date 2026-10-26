@@ -14,7 +14,7 @@
 
 탑다운 2D 액션 RPG예요. 적 공격 직전에 막는 패링이랑 아슬아슬하게 피하는 완벽 회피에 손맛을 넣는 데 신경을 제일 많이 썼어요. 싸우다 지치면 낚시하고, 모닥불에서 밥 해 먹고, 집도 지을 수 있어요. 시점을 돌려서 2.5D나 1인칭으로 보는 것도 해 봤고요. 지금 v1.7까지 왔어요.
 
-<sub>Unity 6 · URP 2D · C# &nbsp;|&nbsp; Windows · Android</sub><br>
+<sub>Unity 6 · URP 2D · C# &nbsp;|&nbsp; Windows · Android &nbsp;|&nbsp; 코드 비공개</sub><br>
 <sub>그래픽은 Ninja Adventure 에셋(CC0)을 썼어요.</sub>
 
 <br>
