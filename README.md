@@ -1,10 +1,10 @@
 <img src="assets/title-screen.svg" width="100%" alt="이동현 · 게임이랑 데스크톱 앱을 만들어요">
 
-<img src="assets/dialog.svg" width="100%" alt="안녕하세요! 게임이랑 데스크톱 앱을 만드는 이동현이에요. 혼자 만들기엔 늘 손이 모자라서, 요즘은 AI 동료들한테 일을 나눠 주고 같이 개발하는 법을 연구하고 있어요.">
+<img src="assets/dialog.svg" width="100%" alt="유이: 어서 오세요! 여기는 이동현의 작업실이에요. 게임이랑 데스크톱 앱을 만들고, 요즘은 AI 동료들한테 일을 나눠 주며 같이 개발하는 법을 연구하고 있대요.">
 
-<img src="assets/status.svg" width="100%" alt="직업 게임·데스크톱 앱 개발자, 주 무기 Unity·Tauri, 특기 AI 에이전트 지휘">
+<img src="assets/status.svg" width="100%" alt="직업 게임·앱 개발자, 주 무기 Unity·Tauri, 특기 AI 에이전트 지휘, 칭호 밤샘하는 자">
 
-<img src="assets/party.svg" width="100%" alt="파티: 이동현(리더), Claude Code(마법사), Codex(기사), 고양이(응원 담당)">
+<img src="assets/party.svg" width="100%" alt="이동현의 파티: 유이(궁수), 드라벤(검사), Claude Code(마법사), Codex(기사)">
 
 <br>
 
